@@ -1,0 +1,65 @@
+2025-05-05T06:52:10.680+08:00  INFO 14392 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Starting CircuitBreakerApplication using Java 17.0.8 with PID 14392 (C:\shankar\projects\circutbreaker\target\classes started by shank in C:\shankar\projects\circutbreaker)
+2025-05-05T06:52:10.688+08:00 DEBUG 14392 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-05T06:52:10.690+08:00  INFO 14392 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-05-05T06:52:13.731+08:00  INFO 14392 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-05-05T06:52:13.751+08:00  INFO 14392 --- [circutbreaker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-05T06:52:13.752+08:00  INFO 14392 --- [circutbreaker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-05T06:52:13.832+08:00  INFO 14392 --- [circutbreaker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-05T06:52:13.832+08:00  INFO 14392 --- [circutbreaker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3057 ms
+2025-05-05T06:52:16.043+08:00  INFO 14392 --- [circutbreaker] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoints beneath base path '/actuator'
+2025-05-05T06:52:16.149+08:00  INFO 14392 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-05-05T06:52:16.168+08:00  INFO 14392 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Started CircuitBreakerApplication in 6.102 seconds (process running for 6.604)
+2025-05-05T06:53:27.018+08:00  INFO 14392 --- [circutbreaker] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05T06:53:27.018+08:00  INFO 14392 --- [circutbreaker] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-05T06:53:27.018+08:00  INFO 14392 --- [circutbreaker] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-05-05T06:53:27.747+08:00  INFO 14392 --- [circutbreaker] [http-nio-8085-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 289 ms
+2025-05-05T06:53:34.724+08:00 DEBUG 14392 --- [circutbreaker] [http-nio-8085-exec-9] c.e.c.c.CircuitBreakerController         : good morning circuit breaker {
+  "userId": 5,
+  "id": 46,
+  "title": "aut quo modi neque nostrum ducimus",
+  "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+}
+2025-05-05T06:54:18.358+08:00 DEBUG 14392 --- [circutbreaker] [http-nio-8085-exec-10] c.e.c.c.CircuitBreakerController         : good morning circuit breaker {
+  "userId": 3,
+  "id": 21,
+  "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+  "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+}
+2025-05-05T06:54:55.499+08:00  INFO 14392 --- [circutbreaker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05T06:54:55.673+08:00  INFO 14392 --- [circutbreaker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-05T06:55:00.019+08:00  INFO 15052 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Starting CircuitBreakerApplication using Java 17.0.8 with PID 15052 (C:\shankar\projects\circutbreaker\target\classes started by shank in C:\shankar\projects\circutbreaker)
+2025-05-05T06:55:00.023+08:00 DEBUG 15052 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-05T06:55:00.024+08:00  INFO 15052 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-05-05T06:55:02.492+08:00  INFO 15052 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-05-05T06:55:02.569+08:00  INFO 15052 --- [circutbreaker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2490 ms
+2025-05-05T06:55:05.210+08:00  INFO 15052 --- [circutbreaker] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoints beneath base path '/actuator'
+2025-05-05T06:55:05.304+08:00  INFO 15052 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-05-05T06:55:05.323+08:00  INFO 15052 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Started CircuitBreakerApplication in 5.858 seconds (process running for 6.252)
+2025-05-05T06:55:05.325+08:00  INFO 15052 --- [circutbreaker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05T06:55:05.553+08:00  INFO 15052 --- [circutbreaker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-05-05T06:55:32.275+08:00  INFO 8528 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Starting CircuitBreakerApplication using Java 17.0.8 with PID 8528 (C:\shankar\projects\circutbreaker\target\classes started by shank in C:\shankar\projects\circutbreaker)
+2025-05-05T06:55:32.278+08:00 DEBUG 8528 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Running with Spring Boot v3.4.5, Spring v6.2.6
+2025-05-05T06:55:32.280+08:00  INFO 8528 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : No active profile set, falling back to 1 default profile: "default"
+2025-05-05T06:55:34.692+08:00  INFO 8528 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8085 (http)
+2025-05-05T06:55:34.707+08:00  INFO 8528 --- [circutbreaker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-05-05T06:55:34.708+08:00  INFO 8528 --- [circutbreaker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.40]
+2025-05-05T06:55:34.790+08:00  INFO 8528 --- [circutbreaker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-05-05T06:55:34.791+08:00  INFO 8528 --- [circutbreaker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2456 ms
+2025-05-05T06:55:37.461+08:00  INFO 8528 --- [circutbreaker] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 27 endpoints beneath base path '/actuator'
+2025-05-05T06:55:37.558+08:00  INFO 8528 --- [circutbreaker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8085 (http) with context path '/'
+2025-05-05T06:55:37.574+08:00  INFO 8528 --- [circutbreaker] [main] c.e.c.CircuitBreakerApplication          : Started CircuitBreakerApplication in 5.828 seconds (process running for 6.198)
+2025-05-05T06:56:03.246+08:00  INFO 8528 --- [circutbreaker] [http-nio-8085-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-05-05T06:56:03.247+08:00  INFO 8528 --- [circutbreaker] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-05-05T06:56:03.248+08:00  INFO 8528 --- [circutbreaker] [http-nio-8085-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-05-05T06:56:03.321+08:00  WARN 8528 --- [circutbreaker] [http-nio-8085-exec-1] c.e.c.config.CircuitBreakerEventLogger   : ERROR: 2025-05-05T06:56:03.320504500+08:00[Asia/Singapore]: CircuitBreaker 'test' recorded an error: 'com.example.circutbreaker.service.TestCustomException: i am throwing exception'. Elapsed time: 0 ms
+2025-05-05T06:56:03.328+08:00  INFO 8528 --- [circutbreaker] [http-nio-8085-exec-1] c.e.c.service.CircuitBreakerService      : fallback response
+2025-05-05T06:56:03.329+08:00 DEBUG 8528 --- [circutbreaker] [http-nio-8085-exec-1] c.e.c.c.CircuitBreakerController         : good morning circuit breaker fallback response
+2025-05-05T06:56:25.645+08:00  INFO 8528 --- [circutbreaker] [http-nio-8085-exec-4] c.e.c.config.CircuitBreakerEventLogger   : SUCCESS: 2025-05-05T06:56:25.645119+08:00[Asia/Singapore]: CircuitBreaker 'test' recorded a successful call. Elapsed time: 306 ms
+2025-05-05T06:56:25.645+08:00 DEBUG 8528 --- [circutbreaker] [http-nio-8085-exec-4] c.e.c.c.CircuitBreakerController         : good morning circuit breaker {
+  "userId": 1,
+  "id": 7,
+  "title": "magnam facilis autem",
+  "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+}
+2025-05-05T06:56:32.861+08:00  INFO 8528 --- [circutbreaker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-05-05T06:56:33.016+08:00  INFO 8528 --- [circutbreaker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
